@@ -74,12 +74,12 @@ body {
 .sidebar .sidebar-search {
   padding: 15px;
 }
-.sidebar ul li {
+/*.sidebar ul li {
   border-bottom: 1px solid #e7e7e7;
 }
 .sidebar ul li a.active {
   background-color: #eeeeee;
-}
+}*/
 .sidebar .arrow {
   float: right;
 }
@@ -117,7 +117,7 @@ body {
   background-color: transparent;
   transition: all .5s;
 }
-.btn-primary.btn-outline {
+/*.btn-primary.btn-outline {
   color: #428bca;
 }
 .btn-success.btn-outline {
@@ -138,7 +138,7 @@ body {
 .btn-warning.btn-outline:hover,
 .btn-danger.btn-outline:hover {
   color: white;
-}
+}*/
 .chat {
   margin: 0;
   padding: 0;
