@@ -2,26 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8057d5a5-8eb6-409d-8c15-a453ffe0a997" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/crock.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/shark.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/turtle.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/css/guest.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/css/inbox.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/scss/style.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/camera.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/employees.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/inbox.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/report.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/terminal.html" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/css/mine.css" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/css/sb-admin-2.css" afterPath="$PROJECT_DIR$/dist/css/sb-admin-2.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/index.html" afterPath="$PROJECT_DIR$/pages/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/issues.html" afterPath="$PROJECT_DIR$/pages/issues.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/notifications.html" afterPath="$PROJECT_DIR$/pages/notifications.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/reports.html" afterPath="$PROJECT_DIR$/pages/reports.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -162,8 +143,8 @@
       <file leaf-file-name="guest.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/dist/css/guest.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="169">
-              <caret line="1002" column="22" lean-forward="true" selection-start-line="1002" selection-start-column="22" selection-end-line="1002" selection-end-column="22" />
+            <state relative-caret-position="739">
+              <caret line="1040" column="23" lean-forward="true" selection-start-line="1040" selection-start-column="23" selection-end-line="1040" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -435,7 +416,7 @@
       <workItem from="1481739654272" duration="5182000" />
       <workItem from="1481996192255" duration="215000" />
       <workItem from="1482308049536" duration="238000" />
-      <workItem from="1483550949045" duration="17985000" />
+      <workItem from="1483550949045" duration="18282000" />
     </task>
     <task id="LOCAL-00001" summary="new version">
       <created>1483625212706</created>
@@ -444,11 +425,18 @@
       <option name="project" value="LOCAL" />
       <updated>1483625212706</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="with some of guest">
+      <created>1483632246705</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1483632246705</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25685000" />
+    <option name="totallyTimeSpent" value="25982000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="2048" height="1014" extended-state="0" />
@@ -457,11 +445,11 @@
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.124814995" sideWeight="0.49566162" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.45770064" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.45770064" sideWeight="0.5037001" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.45770064" sideWeight="0.49629995" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32933104" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286334" sideWeight="0.49629995" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.124814995" sideWeight="0.5043384" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -481,7 +469,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="new version" />
-    <option name="LAST_COMMIT_MESSAGE" value="new version" />
+    <MESSAGE value="with some of guest" />
+    <option name="LAST_COMMIT_MESSAGE" value="with some of guest" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -919,8 +908,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/dist/css/guest.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="1002" column="22" lean-forward="true" selection-start-line="1002" selection-start-column="22" selection-end-line="1002" selection-end-column="22" />
+        <state relative-caret-position="739">
+          <caret line="1040" column="23" lean-forward="true" selection-start-line="1040" selection-start-column="23" selection-end-line="1040" selection-end-column="23" />
           <folding />
         </state>
       </provider>
