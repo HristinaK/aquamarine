@@ -209,17 +209,17 @@
                              /.nav-second-level -->
                         </li>
                         <li>
-                            <a href="tables.html"><i class="fa fa-table fa-fw"></i> Create & Edit Issues</a>
+                            <a href="issues.html"><i class="fa fa-table fa-fw"></i> Create & Edit Issues</a>
                         </li>
                         <li>
-                            <a href="forms.html"><i class="fa fa-envelope fa-fw"></i> Inbox</a>
+                            <a href="inbox.html"><i class="fa fa-envelope fa-fw"></i> Inbox</a>
                         </li>
 
                         <li>
-                            <a href="tables.html"><i class="fa fa-camera fa-fw"></i> Camera View</a>
+                            <a href="camera.html"><i class="fa fa-camera fa-fw"></i> Camera View</a>
                         </li>
                         <li>
-                            <a href="forms.html"><i class="fa fa-user fa-fw"></i> Employees</a>
+                            <a href="employees.html"><i class="fa fa-user fa-fw"></i> Employees</a>
                         </li>
 
                         <!--
@@ -323,7 +323,7 @@
                                     <th>To</th>
                                     <th>Status</th>
                                     <th>Progress</th>
-                                    <th>Notes</th>
+                                    <th>Report</th>
                                 </tr>
                                 </thead>
                                 <tbody>
@@ -338,17 +338,101 @@
                                         <td>
                                             <div class="progress">
                                                 <div class="progress-bar progress-bar-info progress-bar-striped" role="progressbar"
-                                                     aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:50%">
-                                                    50% Complete (info)
+                                                     aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width:0%">
+                                                    0% Complete
                                                 </div>
                                             </div>
                                         </td>
-                                        <td>
-                                            <button class="btn btn-sm btn-primary disabled">
+
+                                        <td class=" tooltip-demo">
+                                            <button class="btn btn-sm btn-primary disabled" data-toggle="tooltip" data-placement="top" title="No report found">
                                                 <span class="fa fa-file"></span>
                                             </button>
                                         </td>
                                     </tr>
+                                    <tr>
+                                        <td>16/12/2016</td>
+                                        <td><button class="btn btn-sm btn-warning">Medium</button></td>
+                                        <td>Maintenance</td>
+                                        <td>Leaking pipe in bathroom.</td>
+                                        <td>Guest</td>
+                                        <td>Technician</td>
+                                        <td>In Progress</td>
+                                        <td>
+                                            <div class="progress">
+                                                <div class="progress-bar progress-bar-info progress-bar-striped" role="progressbar"
+                                                     aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:70%">
+                                                    70% Complete
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td class="tooltip-demo">
+                                            <button class="btn btn-sm btn-primary" data-toggle="modal" data-target="#myModal" >
+                                                <span class="fa fa-file" data-toggle="tooltip" data-placement="top" title="Click to view report"></span>
+                                            </button>
+                                            <!-- Modal -->
+                                            <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                                                <div class="modal-dialog">
+                                                    <div class="modal-content">
+                                                        <div class="modal-header">
+                                                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                                            <h4 class="modal-title" id="myModalLabel">Report</h4>
+                                                        </div>
+                                                        <div class="modal-body">
+                                                            <div class="well">
+                                                                <div class="small right text-right">12/12/2012 10:22</div>
+                                                                On the scene assessing the problem.
+                                                            </div>
+                                                            <div class="well">
+                                                                <div class="small right text-right">14/12/2012 13:33</div>
+                                                                Found the problem, broken part of the main pipe.
+                                                            </div>
+                                                            <div class="well">
+                                                                <div class="small right text-right">16/12/2012 10:11</div>
+                                                                Waiting just for a part to arrive for the pipe.
+                                                            </div>
+                                                        </div>
+                                                        <div class="modal-footer">
+                                                            <div class="btn-group btn-group-justified" role="group" aria-label="group button">
+                                                                <div class="btn-group" role="group">
+                                                                    <a type="button" class="btn btn-default" data-dismiss="modal"  role="button">Close</a>
+                                                                </div>
+                                                                <div class="btn-group" role="group">
+                                                                    <a type="button" id="saveImage" class="btn btn-primary" data-action="save" role="button" href="report.html">View Detailed Report</a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <!-- /.modal-content -->
+                                                </div>
+                                                <!-- /.modal-dialog -->
+                                            </div>
+                                            <!-- /.modal -->
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>16/12/2016</td>
+                                        <td><button class="btn btn-sm btn-info">Low</button></td>
+                                        <td>Hygiene</td>
+                                        <td>Soda spilled on second floor.</td>
+                                        <td>Guest</td>
+                                        <td>Cleaner</td>
+                                        <td>Resolved</td>
+                                        <td>
+                                            <div class="progress">
+                                                <div class="progress-bar progress-bar-success progress-bar-striped" role="progressbar"
+                                                     aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width:100%">
+                                                    100% Complete
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td class=" tooltip-demo">
+                                            <button class="btn btn-sm btn-primary disabled" data-toggle="tooltip" data-placement="top" title="No report found">
+                                                <span class="fa fa-file"></span>
+                                            </button>
+                                        </td>
+                                    </tr>
+
                                 </tbody>
                             </table>
 
@@ -919,6 +1003,16 @@
                 responsive: true
             });
         });
+
+        <!-- Page-Level Demo Scripts - Notifications - Use for reference -->
+
+        // tooltip demo
+        $('.tooltip-demo').tooltip({
+            selector: "[data-toggle=tooltip]",
+            container: "body"
+        });
+        // popover demo
+        $("[data-toggle=popover]").popover();
     </script>
 </body>
 

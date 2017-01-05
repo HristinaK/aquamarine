@@ -20,5 +20,11 @@
   "repository": {
     "type": "git",
     "url": "git://github.com/BlackrockDigital/startbootstrap-sb-admin-2.git"
+  },
+  "dependencies": {
+    "arrive": "^2.3.1",
+    "bootstrap": "^3.3.7",
+    "bootstrap-material-design": "^0.5.10",
+    "jquery": "^3.1.1"
   }
 }
